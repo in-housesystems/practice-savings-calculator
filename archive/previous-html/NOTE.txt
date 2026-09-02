@@ -1,0 +1,1 @@
+Previous live Lab Savings Calculator (single-file HTML) archived before replacing with the grok.com House Lab Vite app.
