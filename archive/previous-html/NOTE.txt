@@ -1,1 +1,1 @@
-Previous live Lab Savings Calculator (single-file HTML) archived before replacing with the grok.com House Lab Vite app. Current name: Practice Savings Calculator.
+Previous live Lab Savings Calculator (single-file HTML) archived before replacing with the grok.com Vite app then titled House Lab. Current name: Practice Savings Calculator.
