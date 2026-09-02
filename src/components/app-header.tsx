@@ -13,7 +13,7 @@ export function AppHeader() {
   return (
     <header className="flex flex-col gap-5">
       <div className="flex items-center justify-between gap-4 rounded-2xl bg-teal px-4 py-3 text-teal-fg sm:px-5">
-        <p className="text-xs font-medium uppercase tracking-widest">House Lab</p>
+        <p className="text-xs font-medium uppercase tracking-widest">Practice Savings Calculator</p>
         <PeriodToggle period={period} onChange={setPeriod} />
       </div>
 

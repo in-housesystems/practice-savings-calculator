@@ -1,4 +1,4 @@
-# House Lab
+# Practice Savings Calculator
 
 https://in-housesystems.com/practice-savings-calculator/
 

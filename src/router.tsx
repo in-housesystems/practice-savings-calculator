@@ -24,7 +24,7 @@ function PendingScreen() {
           textTransform: "uppercase",
         }}
       >
-        House Lab
+        Practice Savings Calculator
       </div>
       <p style={{ fontSize: 28, margin: "20px 0 0", fontFamily: "Georgia, serif" }}>
         Northside Dental
