@@ -1,5 +1,7 @@
 # House Lab
 
+https://in-housesystems.com/practice-savings-calculator/
+
 See what a dental or orthodontic practice keeps each month and year when appliances are made in-house — including the full internal cost of bringing production in-house.
 
 ## What it does
@@ -35,6 +37,5 @@ The Dental preset loads **Northside Dental** with night guards, Essix retainers,
 Private. All rights reserved.
 
 ## Live
-https://in-housesystems.com/practice-savings-calculator/
 
 GitHub Pages serves a static client export of this Vite/TanStack Start app from the repo root (`base` `/practice-savings-calculator/`). Auth is off. The previous Lab Savings HTML is in `archive/previous-html/`.
