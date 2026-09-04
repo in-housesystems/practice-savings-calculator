@@ -2,31 +2,21 @@
 
 https://in-housesystems.com/practice-savings-calculator/
 
-See what a dental or orthodontic practice keeps each month and year when appliances are made in-house — including the full internal cost of bringing production in-house.
+Lab savings calculator for dental and orthodontic practices considering in-house appliance production. Compare lab invoices to the full internal cost: materials, labor, scrap, equipment, space, software, utilities, and maintenance.
 
-## What it does
+Open the live URL. Start from Dental, Ortho, or an empty sheet. Edit the mix and overhead. Switch month / year. Figures stay in this browser; nothing is sent to a server.
 
-- Compare lab invoices vs fully loaded in-house cost
-- Edit appliance mix: volume, lab fee, materials, labor, scrap
-- Include equipment amortization, space, software, utilities, and maintenance
-- Switch month / year
-- Start from Dental, Ortho, or an empty sheet
+## What's the app vs leftover
 
-Figures stay in the browser (Zustand + `localStorage`). Nothing is sent to a server.
+| What | What it is |
+|---|---|
+| This page (`/practice-savings-calculator/`) | The live calculator |
+| Company site `/calculator.html` | Redirects here. Old bookmarks still work |
+| `src/` | Source. Edit here |
+| Root `index.html` / `assets/` | GitHub Pages snapshot (generated). Refresh with `npm run pages` |
+| `archive/previous-html/` | Previous single-file calculator. Not live |
 
-## What's in this repo
-
-Three layers. Do not mix them:
-
-```
-src/ + public/     source of truth (edit here)
-root index/assets  GitHub Pages snapshot (generated, committed)
-archive/           previous live HTML only
-```
-
-- **Source:** Vite + TanStack Start SPA (`base` `/practice-savings-calculator/`). Calculator UI and math live under `src/`. Favicon is `public/favicon.svg`.
-- **Published snapshot:** GitHub Pages serves committed files at the repo root (`index.html`, `404.html`, `assets/`, `.nojekyll`). Refresh with `npm run pages`.
-- **Archive:** `archive/previous-html/` is the previous live Lab Savings HTML. It is not the current app.
+Login, server, and home-screen install leftovers were removed. This calculator never used them.
 
 ## Run locally
 
@@ -35,20 +25,15 @@ npm install
 npm run dev
 ```
 
-Then open the address Vite prints (this project is configured for port 8080).
+Then open the address printed (port 8080).
 
 ```bash
 npm test
 npm run typecheck
-npm run build
 npm run pages
 ```
 
-`npm run pages` runs the production build and copies `dist/client` to the repo root for GitHub Pages.
-
-## Sample data
-
-The Dental preset loads **Northside Dental** with night guards, Essix retainers, occlusal splints, surgical guides, bleaching trays, flippers, and sports mouthguards. Replace the practice name and numbers with your own.
+`npm run pages` builds and copies the static files to the repo root for GitHub Pages.
 
 ## License
 
