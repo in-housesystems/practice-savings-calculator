@@ -2,6 +2,12 @@
 
 Newest first. This is the human list of what went live. GitHub still has the technical commits.
 
+## Sep 5, 2026 — Chart accessibility label
+
+- The lab-versus-in-house chart now has a concise screen-reader description with its period and appliance count.
+- Calculator math, presets, storage, and the live URL did not change.
+- Local scratch output under `__grok/` is now ignored.
+
 ## Sep 4, 2026 — Leftovers stripped; old calculator URL sends people here
 
 - Removed login, server, and home-screen install leftovers. This calculator never needed them.

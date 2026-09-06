@@ -56,7 +56,12 @@ export function MixChart({ lines, period }: Props) {
   }
 
   return (
-    <div className="w-full" style={{ height }}>
+    <div
+      className="w-full"
+      style={{ height }}
+      role="img"
+      aria-label={`Lab invoice and in-house cost comparison per ${period} for ${data.length} appliance${data.length === 1 ? "" : "s"}`}
+    >
       <ResponsiveContainer width="100%" height="100%">
         <BarChart
           data={data}

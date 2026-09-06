@@ -9,6 +9,7 @@ screenshots
 .env.*
 .project_id
 .grok/
+__grok/
 .node_modules.lock
 AGENTS.md
 AGENTS.project.md
